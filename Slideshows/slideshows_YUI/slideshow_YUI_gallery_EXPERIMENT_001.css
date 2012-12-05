@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#banner_images  {width: 100%;}
+
+.slideshow {position: relative; width: 2650px;}
+.slideHolder {position: relative; height: 512px; width: 2650px; overflow: hidden;}
+.slide { display: none; position: absolute;}
+.slide.current { display: block; }
+.inactive {color: #fff;}
+
+#man_slideshow1 {position: absolute; top: 150px; left: 0px}

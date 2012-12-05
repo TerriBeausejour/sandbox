@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#Div_Banner {
+	float: left;
+	width: 100%;
+	border: 0;
+	position: absolute;
+	top: 120px;
+	min-height: 512px;
+}
+
+#banner-slideshow img { display: none }
+#banner-slideshow img.first { display: block }
+
+.MyEvents {
+	opacity: 1;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width: 2560px;
+	z-index: 300;
+	/*line-height: 24px;*/
+	/*background: transparent url('../images/Image_Carousel_Header.png') top left repeat;*/
+	color: #4b5780;
+	text-align: center;
+	font-size: 34px;
+  	/*font-family: "ff-dax-web-pro","Trebuchet MS", Arial, Helvetica, sans-serif;*/
+	font-family: "ff-dax-web-pro-condensed",sans-serif;
+	font-weight: 400;
+	margin-top: 70px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+.MyDecadeSong {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width: 2560px;
+	z-index: 300;
+	/*line-height: 24px;*/
+	/*background: transparent url('../images/Image_Carousel_Header.png') top left repeat;*/
+	color: #4b5780;
+	text-align: center;
+	font-size: 34px;
+  	/*font-family: "ff-dax-web-pro","Trebuchet MS", Arial, Helvetica, sans-serif;*/
+	font-family: "ff-dax-web-pro-condensed",sans-serif;
+	font-weight: 400;
+	margin-top: 70px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+

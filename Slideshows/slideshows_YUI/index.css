@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.slideshow {position: relative; height: 500px; width: 400px; overflow: hidden;}
+.slideHolder {position: relative; height: 500px; width: 400px;}
+.slide { display: none; position: absolute; height: 500px; width: 400px;}
+.slide.current { display: block; }
+.inactive {color: #fff;}
+
+#banner_images  {width: 100%;}
+
+#man_slideshow1 {position: absolute; top: 150px; left: 70px}
+#man_slideshow2 {position: absolute; top: 150px; left: 470px}
+#man_slideshow3 {position: absolute; top: 150px; left: 870px}
+#man_slideshow4 {position: absolute; top: 150px; left: 1270px}
+#man_slideshow5 {position: absolute; top: 150px; left: 1670px}
+#man_slideshow6 {position: absolute; top: 150px; left: 2070px}
+
+#man_slideshow7 {position: absolute; left: 500px; top: 700px; width: 800px}

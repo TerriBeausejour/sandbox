@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+ 
+body {
+     background: white;
+}
+ 
+#container {
+ 	width: 2560px;
+    overflow: hidden;
+    margin: 0px auto;
+    background: white;
+}
+
+/*header*/
+header {
+    width: 800px;
+    margin: 40px auto;
+}
+ 
+header h1 {
+    text-align: center;
+    font: 100 60px/1.5 Helvetica, Verdana, sans-serif;  
+}
+ 
+/*photobanner*/
+ 
+.photobanner {
+	height: 512px;
+    width: 10500px; 
+}
+
+/*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 160s linear infinite;
+}
+
+
+@-webkit-keyframes "bannermove" {
+
+ 0% {
+
+   margin-left: 0px;
+
+ }
+ 100% {
+   /* 	TMB: 7581 is image width * 3 (for 3 images) (+ 1 to attempt to cover lag for paint refresh based on observing the artifact). 
+   		This value effects the behavior when restarting the animation. */
+   /* 	TBD: So far, I cannot find a value that overcomes a bump as the animation cycles to the beginning - TBD! */
+   margin-left: -7681px;
+
+ }
+
+}
+
+/*
+@-webkit-keyframes "bannermove" {
+ 0% {
+   -webkit-transform: translateX(0);  
+ }
+ 100% {
+  -webkit-transform: translateX(-300%);  
+ }
+}
+*/

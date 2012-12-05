@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+#tech-slideshow {
+    height: 512px;
+    position: relative;
+    overflow: hidden;
+}
+#tech-slideshow > div {
+    height: 512px;
+    width: 7680px;
+    background: url(images/BannerOneImage2010s.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+    -moz-transition:  opacity 0.5s ease-out; 
+ 	   -o-transition: opacity 0.5s ease-out; 
+  	-webkit-transition: opacity 0.5s ease-out; 
+      -ms-transition: opacity 0.5s ease-out; 
+
+    -webkit-animation: moveSlideshow 100s linear infinite;
+    -moz-animation:    moveSlideshow 100s linear infinite;
+	
+   -webkit-transform: translate3d(0, 0, 0); /* Trigger GPU Usage - performance */    
+
+}
+
+@-webkit-keyframes moveSlideshow {
+    0%   { 
+        -webkit-transform: translateX(0);  
+    }   
+    100% { 
+		 -webkit-transform: translateX(-5120px);  
+    }
+}
+@-moz-keyframes moveSlideshow {
+    0%   { 
+        -moz-transform:    translateX(0); 
+    }    
+    100% { 
+        -moz-transform:    translateX(-5120px); 
+    }
+}
