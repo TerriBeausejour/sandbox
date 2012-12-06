@@ -6,6 +6,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 <script src="./slideshow_carousel_cycle2.js"></script>
+
 <link rel="stylesheet" type="text/css" href="slideshow_carousel_cycle2.css">
 
 <script>

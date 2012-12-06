@@ -6,9 +6,17 @@
 	width: 100%;
 	border: 0;
 	position: absolute;
-	top: 120px;
+	top: 0px;
 	min-height: 512px;
 }
+
+#banner-slideshow {
+	margin-top: 160px;
+}
+
+#banner-slideshow img { width: auto; padding-left: 8px; padding-right: 8px}
+
+/*div.slideshow img { width: auto; height: auto }*/
 
 .MyEvents {
 	opacity: 1;
